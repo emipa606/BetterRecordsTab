@@ -11,18 +11,21 @@ namespace RecordsPlus
     public static class DrawRecordplus
     {
         // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
-        private static void Prefix(float x, float y, float width, RecordDef record, Pawn pawn)
+        private static void Prefix(RecordDef record, Pawn pawn)
         {
             var num = pawn.records.GetValue(record);
             GUI.color = Color.white;
-            foreach (Pawn pawnToTest in Find.CurrentMap.mapPawns.FreeColonists)
+            foreach (var pawnToTest in Find.CurrentMap.mapPawns.FreeColonists)
             {
-                if (pawnToTest.records.GetValue(record) > num)
+                if (!(pawnToTest.records.GetValue(record) > num))
                 {
-                    GUI.color = Color.yellow;
-                    return;
+                    continue;
                 }
+
+                GUI.color = Color.yellow;
+                return;
             }
+
             if (num > 0)
             {
                 GUI.color = Color.green;
