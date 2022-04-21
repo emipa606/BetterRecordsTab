@@ -1,14 +1,14 @@
 # BetterRecordsTab
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Odies mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1516662419
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 Applies color to the list of records on the Records tab:
 
@@ -18,7 +18,7 @@ Applies color to the list of records on the Records tab:
 
 This helps quickly see what your colonist is best at compared to the others
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
