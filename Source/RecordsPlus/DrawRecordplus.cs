@@ -5,8 +5,7 @@ using Verse;
 
 namespace RecordsPlus;
 
-[HarmonyPatch(typeof(RecordsCardUtility))]
-[HarmonyPatch("DrawRecord")]
+[HarmonyPatch(typeof(RecordsCardUtility), "DrawRecord")]
 public static class DrawRecordplus
 {
     private static void Prefix(RecordDef record, Pawn pawn)
