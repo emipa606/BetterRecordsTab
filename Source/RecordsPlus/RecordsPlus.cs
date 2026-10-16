@@ -5,7 +5,7 @@ using Verse;
 namespace RecordsPlus;
 
 [StaticConstructorOnStartup]
-public class RecordsPlus
+public static class RecordsPlus
 {
     static RecordsPlus()
     {

@@ -8,7 +8,7 @@ namespace RecordsPlus;
 [HarmonyPatch(typeof(RecordsCardUtility), "DrawRecord")]
 public static class DrawRecordplus
 {
-    private static void Prefix(RecordDef record, Pawn pawn)
+    public static void Prefix(RecordDef record, Pawn pawn)
     {
         var num = pawn.records.GetValue(record);
         GUI.color = Color.white;
